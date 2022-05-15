@@ -1,0 +1,86 @@
+(ExpressProject "G6_Lab_1_Haroutun_Case_2"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\g6_lab_1_haroutun_case_2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\g6_lab_1_haroutun_case_2-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\g6_lab_1_haroutun_case_2-pspicefiles\schematic1\g6_lab_1_haroutun_case_2.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\g6_lab_1_haroutun_case_2-pspicefiles\schematic1\g6_lab_1_haroutun_case_2.sim"
+        (DisplayName "SCHEMATIC1-G6_Lab_1_Haroutun_Case_2")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "Harry")
+  (PartMRUSelector
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (MbreakP
+      (FullPartName "MbreakP.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MbreakN
+      (FullPartName "MbreakN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Harry\Desktop\CSUN\Fall 2021 CSUN\ECE 442L\ECE 442L Lab 1\case2\g6_lab_1_haroutun_case_2.dsn")
+      (Path "Design Resources"
+         "C:\Users\Harry\Desktop\CSUN\Fall 2021 CSUN\ECE 442L\ECE 442L Lab 1\case2\g6_lab_1_haroutun_case_2.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\Harry\Desktop\CSUN\Fall 2021 CSUN\ECE 442L\ECE 442L Lab 1\case2\g6_lab_1_haroutun_case_2.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 339"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 929 52 464")
+        (Scroll "119 288")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\HARRY\DESKTOP\CSUN\FALL 2021 CSUN\ECE 442L\ECE 442L LAB 1\CASE2\G6_LAB_1_HAROUTUN_CASE_2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

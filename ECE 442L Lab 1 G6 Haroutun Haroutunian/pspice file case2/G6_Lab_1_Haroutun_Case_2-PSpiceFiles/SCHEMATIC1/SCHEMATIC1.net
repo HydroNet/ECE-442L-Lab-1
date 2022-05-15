@@ -1,0 +1,6 @@
+* source G6_LAB_1_HAROUTUN_CASE_2
+V_V1         N00194 0  
++PULSE 0V 5V 0 5us 0 0 5us
+M_M1         N00290 N00194 0 0 MbreakN           
+M_M2         N00278 N00194 N00290 N00278 MbreakP           
+V_V2         N00278 0 5Vdc

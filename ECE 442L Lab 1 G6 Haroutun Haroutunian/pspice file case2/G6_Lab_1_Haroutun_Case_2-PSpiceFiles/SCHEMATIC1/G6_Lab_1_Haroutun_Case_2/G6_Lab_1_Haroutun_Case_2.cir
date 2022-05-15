@@ -1,0 +1,19 @@
+** Profile: "SCHEMATIC1-G6_Lab_1_Haroutun_Case_2"  [ C:\Users\Harry\Desktop\CSUN\Fall 2021 CSUN\ECE 442L\ECE 442L Lab 1\case2\g6_lab_1_haroutun_case_2-pspicefiles\schematic1\g6_lab_1_haroutun_case_2.sim ] 
+
+** Creating circuit file "G6_Lab_1_Haroutun_Case_2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Harry\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 15us 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

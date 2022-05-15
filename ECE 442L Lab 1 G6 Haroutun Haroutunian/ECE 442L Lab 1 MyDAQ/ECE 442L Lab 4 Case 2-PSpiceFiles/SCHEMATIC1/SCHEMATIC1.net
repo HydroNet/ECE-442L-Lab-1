@@ -1,0 +1,12 @@
+* source ECE 442L LAB 4 CASE 2
+V_V2         N00326 0  
++PULSE 5 0 0 1us 1us 4us 10us
+V_V3         N00333 0 5Vdc
+R_R1         0 N00654  100MEG TC=0,0 
+M_M1         N00354 N00326 N00333 N00333 Mbreakp           
+M_M2         N00654 N00354 N00462 N00333 Mbreakp           
+M_M3         N00354 N00326 0 0 Mbreakn           
+M_M4         N00654 N00326 N00462 0 Mbreakn           
+C_C1         0 N00654  200pF  TC=0,0 
+V_V4         N00462 0  
++PULSE 0 200mV 0 .1ms .1ms 0 .2ms

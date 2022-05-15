@@ -1,0 +1,50 @@
+
+**** 09/14/21 20:04:37 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-G6_Lab_1_Haroutun_Case_2"  [ C:\Users\Harry\Desktop\CSUN\Fall 2021 CSUN\ECE 442L\ECE 442L Lab 1\case2\G6_Lab
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "G6_Lab_1_Haroutun_Case_2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Harry\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source G6_LAB_1_HAROUTUN_CASE_2
+V_V1         N00194 GND  
++PULSE 5V 0V 0 1us 1us 4us 3.33us
+M_M1         N00290 N00194 GND GND MbreakN           
+M_M2         N00278 N00194 N00290 N00278 MbreakP           
+V_V2         N00278 GND 5Vdc
+
+**** RESUMING G6_Lab_1_Haroutun_Case_2.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00194 is floating
+
+ERROR(ORPSIM-15142): Node GND is floating
+
+ERROR(ORPSIM-15142): Node N00290 is floating
+
+ERROR(ORPSIM-15142): Node N00278 is floating
+
